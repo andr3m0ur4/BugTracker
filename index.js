@@ -46,8 +46,8 @@ app.post('/', async(request, response) => {
         if (request.body.issueType === 'CRITICAL') {
             sgMail.setApiKey(sendGridKey)
             const msg = {
-                to: `${request.body.email}`,
-                from: 'andre.benedicto@etec.sp.gov.br',
+                to: 'andremoura2500@gmail.com',
+                from: `${request.body.email}`,
                 subject: 'Bug crítico reportado',
                 text: `O usuário ${request.body.name} reportou um problema.`,
                 html: `O usuário ${request.body.name} reportou um problema.`,
@@ -56,7 +56,7 @@ app.post('/', async(request, response) => {
         }
         
 
-        response.send('bug reportado com sucesso')
+        response.render('sucesso')
     } catch (err) {
         response.send('Erro ao enviar formulário')
         console.log(err)

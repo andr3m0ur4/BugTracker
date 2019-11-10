@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "charismatic-age-258423",
+  "private_key_id": "a470d3fc1adece0bd2598f69482d471aa72a9c33",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCuZjktmpxdWDO3\nsFMNGpsh/NA+RWnXGw8FDO7awZIa+iPDJXsARopsKAMJDGmrF255F+tNQodOrdxU\nhh0iRTbUg1XPTF1itT+f86AVaHHdIv4yZJ2iZZG4yFfpek883avkvP0ZqXoXyaLP\nmBogdQD8Jv20o1+o2KR9iycMkIVjnTpvk9v1SS0lZzKOf0xj/geIikUWPknPwO06\nZ3VbqUJvjwPHzLsScQZjSRGgFcVezzVPK0OnNBYjPjAzvb7t2wleJg8JwrELOpXP\nr7DWwybJCo0igDGyqqMMR64HfoGQbqGKsYZB6lKURPDbpyP3mL+PGQoPnTsVY5FY\nwF2pZ69NAgMBAAECggEAG7Dzh0Azb8bff10p8ry0wTLJRfnzkkojmmOxUV7G+i2Z\nnBTJcQPCWuYHhVpJNPdlfSjFHeFgZqfIgktBOP3QdPHdoCq58UBiN92RH5UT707t\nGcdMGEsUVkjJXLMk/b8c2hcAASEd18UWauv1yg2J+H+gbRw7xi2QALclniMcavJ6\n+ODsgXgOCvfats1/GiHLgKQxRUMex9vPaTRSucaPZhkCiPpoM9I+rFCw8ScgEkkx\nfFDDSG11c9W9pdFzng6kKkV5Ss6CPFmm7IUy5OTGbtKmfoqWG/JSEoQ0hmMXQYWU\n/Kbkzb9K8CKmJmLGyPw1G5kIZvVbUvrnsrcshnVv6QKBgQDcrimJheKlZYx8scUv\ns/zteUnicgv9ZqByFhN/8x2AW7r1nRkxrQdc6PRThE7ep7LlS7VE4v3X1v3Omw4E\nYIY4bkOBUb44aA+ld+TtXUm8G1Oo1uK/2BmjtcHahSjLUIlylIlFM8HziFkREfmS\nkrc+XKQYoGIKe9K4RUtauD5nJwKBgQDKT89AUashYiBW70VoBod7hM2yXNfpoyvQ\nxz5cScNHWbwgnjSQxVisz1G12KnK4ZcgmDGQhhmo4zloP+X2sIEw9SiUThbyGNA6\nPZ0FDxtbux65wVRpkx0srpaUHzOTAW/SwCLOWUmQ5xQ2jitmGhGfUFG21a0vT/QS\njcC0FGQeawKBgFU42Qen8bAH+GoLSOg0LQAUb+kIPAMfB+UnC17FJ2Zzhk7l3V3m\nwUorGHfMR50KzDZqt1UkB/27pAaOsKoWEJ9oTZ96Tuh/n1M6aukTtq7zKqqwWZ7W\nuIgVYAiglfF2Z64dGKnl5AfFZwgFlgj5qdRmeGSeQ15jFSxebkxZjJfPAoGADCQf\n/u8nwvgdkroHQ0fpB4ufwI1706ScM4pRfr5afsSu2pJD+1AskypZ7/zRq8BADo+z\nocW6cn04a74x8c0D48lCpyvMirjcfjJGYxBWBvpCzMkCZNeUT6MmnDsHIFJcwJwR\nOqr3FEAZ4XBEwHreBd6PGNbX7tfwgNCK+QOkQoMCgYAlXDLx1axmfQ89z0UW8HTV\ntkvUvzVYcv0R2e2fEUa0/sgoEV5fpQVFxT1W7NlFKd8oNg2GPd4pI8Hyg7L9+f1Y\nt3ipo5//GlCg8/N+dRcJE3w4RoCSV66rZw9wJq455RF6TmXnHwRFa/bp32ZXHpiA\n3U/E4AjVC02RDRT8KC2vkA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bugtracker@charismatic-age-258423.iam.gserviceaccount.com",
+  "client_id": "100073602399085119924",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bugtracker%40charismatic-age-258423.iam.gserviceaccount.com"
+}

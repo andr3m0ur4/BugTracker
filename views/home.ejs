@@ -1,6 +1,15 @@
 <html>
     <head>
         <title>BugTracker</title>
+        <script>
+            // Navegador + relogio
+            document.onreadystatechange = () => {
+                if (document.readyState === 'interactive') {
+                    document.getElementById('userAgent').value = window.navigator.userAgent
+                    document.getElementById('userDate').value = new Date()
+                }
+            }
+        </script>
     </head>
     <body>
         <h1>Ferramenta de Relatos de Bugs</h1>
@@ -13,8 +22,13 @@
             <input type="email" name="email" id="email">
 
             <label for="issueType">Classificação:</label>
-            <input type="text" name="issueType" id="issueType">
-
+            <select id="issueType" name="issueType">
+                <option value="">Selecione</option>
+                <option value="CRITICAL">CrÍtico</option>
+                <option value="BUG">Falha</option>
+                <option value="ENHANCEMENT">Melhoria</option>
+            </select>
+            
             <label for="howToReproduce">Como reproduzir o erro?</label>
             <input type="text" name="howToReproduce" id="howToReproduce">
 
@@ -23,6 +37,9 @@
 
             <label for="expectedInput">A saída recebida?</label>
             <input type="text" name="expectedInput" id="expectedInput">
+
+            <input type="hidden" id="userAgent" name="userAgent">
+            <input type="hidden" id="userDate" name="userDate">
 
             <button>Enviar solicitação!</button>
         </form>
